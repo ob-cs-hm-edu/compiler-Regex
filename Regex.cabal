@@ -1,0 +1,19 @@
+name:                  Regex
+version:               0.1.0.0
+synopsis:              A project for playing with regexes
+description:           see README.md
+homepage:              http://ob.cs.hm.edu/lectures/compiler.html
+license:               BSD3
+license-file:          LICENSE
+author:                Oliver Braun
+maintainer:            ob@cs.hm.edu
+build-type:            Simple
+extra-source-files:    README.md
+cabal-version:         >=1.10
+
+executable regexplayground
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  build-depends:       base
+                     , regex-pcre
+  default-language:    Haskell2010
