@@ -15,5 +15,5 @@ executable regexplayground
   hs-source-dirs:      app
   main-is:             Main.hs
   build-depends:       base
-                     , regex-pcre
+                     , regex-pcre-builtin
   default-language:    Haskell2010
